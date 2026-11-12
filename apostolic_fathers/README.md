@@ -41,6 +41,23 @@
 - 编者：J. B. Lightfoot，《The Apostolic Fathers》（1890–1891 修订版），希腊文校勘本 + 英译
 - 来源：https://archive.org/details/apostolicfathers00lighuoft
 
+### open_apostolic_fathers/ — Open Apostolic Fathers 校正版希腊文（数字化工作稿）
+- `001-i_clement.txt`（《致哥林多人前书》全文，按 章.节 编号，含卷首问安与卷末署名）
+- `NOTES.md`（校勘流程说明）
+- 编者：James Tauber & Seumas Macdonald（2019，Zenodo DOI: 10.5281/zenodo.2555673）
+- 以 Lake Loeb 本为底本，将 Perseus/OGL、CCEL、Logos 三版电子文本互校，再**两人独立两轮**对照 Lake 印刷本扫描图逐字修正而成；希腊文多音符干净完整
+- 定位：**数字化工作稿与校对辅助**；权威底本仍为 Lake 1912 印刷本，差异处回印刷本核实
+- 许可：底本 Lake 1912 为公版；数字校订本整体标注 CC BY-SA 4.0，保留署名与许可声明，不整体宣称为公版（详见 COPYRIGHT_SOURCES.md）
+- 来源：https://github.com/jtauber/apostolic-fathers
+
+### gebhardt_harnack_zahn/ — Gebhardt–Harnack–Zahn 校勘本（editio quinta minor, 1906，第五版小型本）
+- `GHZ_1906_PatrumApostolicorum.pdf`（6 MB，版次已据标题页核实：EDITIO QUINTA MINOR）
+- `GHZ_1906_djvu.txt`（OCR 文本，θ 常误作 ϑ、个别错字，仅供检索，引用须核对 PDF）
+- 内容：克莱门特二书、巴拿巴、帕皮亚残篇、致丢格那妥、伊格纳丢、坡旅甲、殉道记、黑马牧人书、十二使徒遗训
+- 编者：O. von Gebhardt (†1906), A. von Harnack (†1930), T. Zahn (†1933)，Leipzig: Hinrichs（公版）
+- **注意**：小型本仅刊希腊文正文＋圣经引文出处，无完整异文栏（完整 apparatus 在大型本 1875–1877 及 Lightfoot 本）；其角色是**独立文本见证**，正文与 Lake 有实质差异（如 1 Clem 1:1 多 ἀδελφοί）
+- 来源：https://archive.org/details/patrumapostolic00papigoog
+
 ### english_ccel/ — CCEL 电子版英译全集（无希腊文，PDF 1.3）
 - `Lake_ApostolicFathers_EN_full.pdf`（1.3 MB）
 - 内容：全部使徒教父著作的英文翻译（基于 Loeb 版 Kirsopp Lake 译本）
@@ -48,7 +65,10 @@
 
 ## 说明
 
-- 建议以 **Lightfoot 全集**（lightfoot_complete/）作为希腊文校勘底本——它收录最全（含帕皮亚残篇），且有英文对照。
+- **权威底本：Lake 1912 印刷本**（loeb_lake_v1/ PDF）；`open_apostolic_fathers/` 作数字化工作稿，差异处回印刷本核实。
+- **校勘对照：Lightfoot–Harmer 1890–1891**（完整异文栏＋注释）与 **GHZ 1906 第五版小型本**（独立文本见证）。两者 OCR 损坏，引用须核对 PDF。
+- 版权分析见 `COPYRIGHT_SOURCES.md`；公版≠学术可靠，异文须记录具体版本与位置。
+- 已发现底本间实质差异，例如 1 Clem 1:1：GHZ 本有 ἀδελφοί（"弟兄们"），Lake 本无——翻译时需出注。
 - **Loeb 两卷**为希腊文+英文逐页对照，适合平行阅读。
 - OCR 文本（.txt）为扫描识别产物，希腊文多音符处或有错讹，引用请核对 PDF 原页。
 - 注意：早期文献的分章编号与和合本/现代译本一致（如 1 Clem 59:2），但不同版本页码各异。
